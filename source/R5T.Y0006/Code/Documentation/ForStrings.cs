@@ -54,6 +54,31 @@ namespace R5T.Y0006
             public static readonly object ForNewLine;
 
             /// <summary>
+            /// "\r\n", carriage return and new line (carriage return and line feed, or CRLF).
+            /// </summary>
+            public static readonly object ForNewLine_Windows;
+
+            /// <summary>
+            /// ".", period
+            /// </summary>
+            public static readonly object ForPeriod;
+
+            /// <summary>
+            /// " ", space
+            /// </summary>
+            public static readonly object ForSpace;
+
+            /// <summary>
+            /// "\t", tab
+            /// </summary>
+            public static readonly object ForTab;
+
+            /// <summary>
+            /// "\s\s\s\s", tab implemeted as four spaces
+            /// </summary>
+            public static readonly object ForTab_AsFourSpaces;
+
+            /// <summary>
             /// "true"
             /// </summary>
             public static readonly object ForTrue_Lowercase;
