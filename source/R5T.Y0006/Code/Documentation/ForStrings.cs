@@ -12,10 +12,20 @@ namespace R5T.Y0006
         public static partial class ForStrings
         {
             /// <summary>
+            /// "*", asterix
+            /// </summary>
+            public static readonly object ForAsterix;
+
+            /// <summary>
             /// ", " - Comma and then a space.
             /// For use in comma-separated lists where you also want a space after each comma.
             /// </summary>
             public static readonly object ForCommaSeparatedListSpacedSeparator;
+
+            /// <summary>
+            /// <description>"..", two periods</description>
+            /// </summary>
+            public static readonly object ForDoubleDot;
 
             /// <summary>
             /// <description>"  ", two spaces</description>
@@ -32,6 +42,11 @@ namespace R5T.Y0006
             /// <inheritdoc cref="ForEmpty_Constant" path="/summary/description"/>
             /// </summary>
             public static readonly object ForEmpty;
+
+            /// <summary>
+            /// "=", the equals sign
+            /// </summary>
+            public static readonly object ForEquals;
 
             /// <summary>
             /// "false"
@@ -62,6 +77,16 @@ namespace R5T.Y0006
             /// ".", period
             /// </summary>
             public static readonly object ForPeriod;
+
+            /// <summary>
+            /// "|", pipe
+            /// </summary>
+            public static readonly object ForPipe;
+
+            /// <summary>
+            /// """, quote mark
+            /// </summary>
+            public static readonly object ForQuote;
 
             /// <summary>
             /// " ", space

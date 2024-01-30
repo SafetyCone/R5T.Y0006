@@ -11,6 +11,11 @@ namespace R5T.Y0006
         public static partial class ForCharacters
         {
             /// <summary>
+            /// <description>'*', asterix</description>
+            /// </summary>
+            public static readonly object ForAsterix;
+
+            /// <summary>
             /// <description>'\', back-slash</description>
             /// </summary>
             public static readonly object ForBackslash;
@@ -21,9 +26,19 @@ namespace R5T.Y0006
             public static readonly object ForCarriageReturn;
 
             /// <summary>
+            /// ':' (colon)
+            /// </summary>
+            public static readonly object ForColon;
+
+            /// <summary>
             /// <description>'©', copyright character.</description>
             /// </summary>
             public static readonly object ForCopyright;
+
+            /// <summary>
+            /// <description>'=', the equals sign</description>
+            /// </summary>
+            public static readonly object ForEquals;
 
             /// <summary>
             /// <description>'\n', new line</description>
@@ -34,6 +49,17 @@ namespace R5T.Y0006
             /// <description>'.', period</description>
             /// </summary>
             public static readonly object ForPeriod;
+
+            /// <summary>
+            /// <description>'|', pipe</description>
+            /// </summary>
+            public static readonly object ForPipe;
+
+            /// <summary>
+            /// <description>'"', quote mark</description>
+            /// The '"' (quote, double-quote, or quotation mark) character.
+            /// </summary>
+            public static readonly object ForQuote;
 
             /// <summary>
             /// <description>';', semi-colon</description>
@@ -49,6 +75,11 @@ namespace R5T.Y0006
             /// <description>'/', slash</description>
             /// </summary>
             public static readonly object ForSlash;
+
+            /// <summary>
+            /// <description>'_', underscore</description>
+            /// </summary>
+            public static readonly object ForUnderscore;
         }
     }
 }
