@@ -8,6 +8,12 @@ namespace R5T.Y0006
 {
 	public static partial class Documentation
 	{
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <remarks>
+        /// * No terminating periods (allows inheritdoc use of path="/summary" in sentences).
+        /// </remarks>
         [DocumentationMarker]
         public static partial class ForStrings
         {
@@ -69,7 +75,7 @@ namespace R5T.Y0006
             public static readonly object ForNewLine;
 
             /// <summary>
-            /// "\r\n", carriage return and new line (carriage return and line feed, or CRLF).
+            /// "\r\n", carriage return and new line (carriage return and line feed, or CRLF)
             /// </summary>
             public static readonly object ForNewLine_Windows;
 
@@ -102,6 +108,11 @@ namespace R5T.Y0006
             /// "\s\s\s\s", tab implemeted as four spaces
             /// </summary>
             public static readonly object ForTab_AsFourSpaces;
+
+            /// <summary>
+            /// "///"
+            /// </summary>
+            public static readonly object ForTripleSlashes;
 
             /// <summary>
             /// "true"
