@@ -55,7 +55,7 @@ namespace R5T.Y0006
             public static readonly object ForEquals;
 
             /// <summary>
-            /// "false"
+            /// <para><value>"false"</value></para>
             /// </summary>
             public static readonly object ForFalse_Lowercase;
 
@@ -100,6 +100,11 @@ namespace R5T.Y0006
             public static readonly object ForSpace;
 
             /// <summary>
+            /// "/", slash
+            /// </summary>
+            public static readonly object ForSlash;
+
+            /// <summary>
             /// "\t", tab
             /// </summary>
             public static readonly object ForTab;
@@ -115,7 +120,7 @@ namespace R5T.Y0006
             public static readonly object ForTripleSlashes;
 
             /// <summary>
-            /// "true"
+            /// <para><value>"true"</value></para>
             /// </summary>
             public static readonly object ForTrue_Lowercase;
 
