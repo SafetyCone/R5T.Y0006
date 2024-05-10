@@ -77,6 +77,11 @@ namespace R5T.Y0006
             public static readonly object ForSlash;
 
             /// <summary>
+            /// <description><value>'\t'</value>, tab</description>
+            /// </summary>
+            public static readonly object For_Tab;
+
+            /// <summary>
             /// <description>'_', underscore</description>
             /// </summary>
             public static readonly object ForUnderscore;
