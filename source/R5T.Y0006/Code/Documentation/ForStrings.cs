@@ -23,6 +23,11 @@ namespace R5T.Y0006
             public static readonly object ForAsterix;
 
             /// <summary>
+            /// ",", comma
+            /// </summary>
+            public static readonly object ForComma;
+
+            /// <summary>
             /// ", " - Comma and then a space.
             /// For use in comma-separated lists where you also want a space after each comma.
             /// </summary>
@@ -70,6 +75,11 @@ namespace R5T.Y0006
             public static readonly object ForFalse_Uppercase;
 
             /// <summary>
+            /// <description>"-", hyphen (or dash)</description>
+            /// </summary>
+            public static readonly object ForHyphen;
+
+            /// <summary>
             /// "\n", new line
             /// </summary>
             public static readonly object ForNewLine;
@@ -80,7 +90,7 @@ namespace R5T.Y0006
             public static readonly object ForNewLine_Windows;
 
             /// <summary>
-            /// ".", period
+            /// ".", period (or dot)
             /// </summary>
             public static readonly object ForPeriod;
 
@@ -93,6 +103,11 @@ namespace R5T.Y0006
             /// """, quote mark
             /// </summary>
             public static readonly object ForQuote;
+
+            /// <summary>
+            /// ";", semicolon
+            /// </summary>
+            public static readonly object ForSemicolon;
 
             /// <summary>
             /// " ", space

@@ -56,6 +56,11 @@ namespace R5T.Y0006
             public static readonly object ForPipe;
 
             /// <summary>
+            /// <description>'q'</description>
+            /// </summary>
+            public static readonly object For_q;
+
+            /// <summary>
             /// <description>'"', quote mark</description>
             /// The '"' (quote, double-quote, or quotation mark) character.
             /// </summary>
