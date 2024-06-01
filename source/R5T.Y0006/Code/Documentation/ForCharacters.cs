@@ -41,6 +41,11 @@ namespace R5T.Y0006
             public static readonly object ForEquals;
 
             /// <summary>
+            /// <description>'\u001b', the escape character (27)</description>
+            /// </summary>
+            public static readonly object For_Escape;
+
+            /// <summary>
             /// <description>'\n', new line</description>
             /// </summary>
             public static readonly object ForNewLine;
