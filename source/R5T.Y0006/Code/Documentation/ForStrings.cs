@@ -90,9 +90,9 @@ namespace R5T.Y0006
             public static readonly object ForNewLine_Windows;
 
             /// <summary>
-            /// ".", period (or dot)
+            /// <description><value>"."</value>, period (or dot)</description>
             /// </summary>
-            public static readonly object ForPeriod;
+            public static readonly object For_Period;
 
             /// <summary>
             /// "|", pipe
