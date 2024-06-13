@@ -23,7 +23,7 @@ namespace R5T.Y0006
             public static readonly object ForAsterix;
 
             /// <summary>
-            /// ",", comma
+            /// <description>",", comma</description>
             /// </summary>
             public static readonly object ForComma;
 
@@ -44,6 +44,11 @@ namespace R5T.Y0006
             public static readonly object ForDoubleSpaces;
 
             /// <summary>
+            /// <description>"...", the ellipsis (three periods)</description>
+            /// </summary>
+            public static readonly object For_Ellipsis;
+
+            /// <summary>
             /// <description>"", the empty string</description>
             /// Constant, as opposed to <see cref="String.Empty"/>, which is readonly. Only constants can be used as default parameter values.
             /// </summary>
@@ -55,7 +60,7 @@ namespace R5T.Y0006
             public static readonly object ForEmpty;
 
             /// <summary>
-            /// "=", the equals sign
+            /// <description>"=", the equals sign</description>
             /// </summary>
             public static readonly object ForEquals;
 
