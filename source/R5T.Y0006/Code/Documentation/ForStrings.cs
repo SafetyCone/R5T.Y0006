@@ -105,6 +105,11 @@ namespace R5T.Y0006
             public static readonly object ForPipe;
 
             /// <summary>
+            /// "?", question mark
+            /// </summary>
+            public static readonly object ForQuestionMark;
+
+            /// <summary>
             /// """, quote mark
             /// </summary>
             public static readonly object ForQuote;

@@ -26,6 +26,11 @@ namespace R5T.Y0006
             public static readonly object ForCarriageReturn;
 
             /// <summary>
+            /// <description>']', close bracket</description>
+            /// </summary>
+            public static readonly object For_CloseBracket;
+
+            /// <summary>
             /// ':' (colon)
             /// </summary>
             public static readonly object ForColon;
@@ -46,9 +51,19 @@ namespace R5T.Y0006
             public static readonly object For_Escape;
 
             /// <summary>
+            /// <description>'[', open bracket</description>
+            /// </summary>
+            public static readonly object For_OpenBracket;
+
+            /// <summary>
             /// <description>'\n', new line</description>
             /// </summary>
             public static readonly object ForNewLine;
+
+            /// <summary>
+            /// <description>'%', percent</description>
+            /// </summary>
+            public static readonly object ForPercent;
 
             /// <summary>
             /// <description>'.', period</description>
