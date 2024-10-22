@@ -8,7 +8,7 @@ namespace R5T.Y0006
     public static partial class Glossary
     {
         [DocumentationMarker]
-        public static partial class ForIndex
+        public static partial class For_Index
         {
             /// <summary>
             /// <inheritdoc cref="Index" path="/definition"/>

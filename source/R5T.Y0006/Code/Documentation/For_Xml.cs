@@ -9,7 +9,7 @@ namespace R5T.Y0006
 	public static partial class Documentation
 	{
         [DocumentationMarker]
-        public static partial class ForXml
+        public static partial class For_Xml
         {
             /// <summary>
             /// Insignificant whitespace is any XText node that contains only whitespace.

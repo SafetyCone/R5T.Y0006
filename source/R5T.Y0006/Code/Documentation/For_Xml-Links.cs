@@ -7,7 +7,7 @@ namespace R5T.Y0006
 {
 	public static partial class Documentation
 	{
-        public static partial class ForXml
+        public static partial class For_Xml
         {
             [DocumentationMarker]
             public static class Links

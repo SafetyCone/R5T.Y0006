@@ -8,7 +8,7 @@ namespace R5T.Y0006
     public static partial class Glossary
     {
         [DocumentationMarker]
-        public partial class ForCharacterClasses
+        public partial class For_CharacterClasses
         {
             /// <summary>
             /// <inheritdoc cref="Alphanumeric" path="/definition"/>

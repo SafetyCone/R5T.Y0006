@@ -14,7 +14,7 @@ namespace R5T.Y0006
         /// * No terminating periods (allows inheritdoc use of path="/summary" in sentences).
         /// </remarks>
         [DocumentationMarker]
-        public static partial class ForStrings
+        public static partial class For_Strings
         {
             /// <summary>
             /// "*", asterix
@@ -31,6 +31,11 @@ namespace R5T.Y0006
             /// For use in comma-separated lists where you also want a space after each comma.
             /// </summary>
             public static readonly object ForCommaSeparatedListSpacedSeparator;
+
+            /// <summary>
+            /// <description>"<value>--</value>", two dashes</description>
+            /// </summary>
+            public static readonly object ForDoubleDash;
 
             /// <summary>
             /// <description>"..", two periods</description>
@@ -79,7 +84,7 @@ namespace R5T.Y0006
             public static readonly object ForFalse_Uppercase;
 
             /// <summary>
-            /// <description>"-", hyphen (or dash)</description>
+            /// <description>"<value>-</value>", hyphen (or dash)</description>
             /// </summary>
             public static readonly object ForHyphen;
 
@@ -92,6 +97,11 @@ namespace R5T.Y0006
             /// "\r\n", carriage return and new line (carriage return and line feed, or CRLF)
             /// </summary>
             public static readonly object ForNewLine_Windows;
+
+            /// <summary>
+            /// <description><value>"%"</value>, percent</description>
+            /// </summary>
+            public static readonly object For_Percent;
 
             /// <summary>
             /// <description><value>"."</value>, period (or dot)</description>

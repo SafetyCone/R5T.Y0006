@@ -8,7 +8,7 @@ namespace R5T.Y0006
 	public static partial class Documentation
 	{
         [DocumentationMarker]
-        public static partial class ForUrls
+        public static partial class For_Urls
         {
             
         }
