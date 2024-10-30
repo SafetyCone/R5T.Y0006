@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace R5T.L0073.Y0006
+namespace R5T.Y0006
 {
     public static partial class Links
     {
