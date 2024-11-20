@@ -16,6 +16,35 @@ namespace R5T.Y0006
         [DocumentationMarker]
         public static partial class For_Strings
         {
+            #region Capital Letters
+
+            /// <summary>
+            /// <para><description><value>"A"</value>, capital letter A</description></para>
+            /// </summary>
+            public static readonly object For_A;
+
+            /// <summary>
+            /// <para><description><value>"B"</value>, capital letter B</description></para>
+            /// </summary>
+            public static readonly object For_B;
+
+            /// <summary>
+            /// <para><description><value>"C"</value>, capital letter C</description></para>
+            /// </summary>
+            public static readonly object For_C;
+
+            /// <summary>
+            /// <para><description><value>"D"</value>, capital letter D</description></para>
+            /// </summary>
+            public static readonly object For_D;
+
+            /// <summary>
+            /// <para><description><value>"E"</value>, capital letter E</description></para>
+            /// </summary>
+            public static readonly object For_E;
+
+            #endregion
+
             /// <summary>
             /// "*", asterix
             /// </summary>
@@ -53,7 +82,7 @@ namespace R5T.Y0006
             public static readonly object For_Ellipsis;
 
             /// <summary>
-            /// <description>"", the empty string</description>
+            /// <description><value>""</value>, the empty string</description>
             /// Constant, as opposed to <see cref="String.Empty"/>, which is readonly. Only constants can be used as default parameter values.
             /// </summary>
             public static readonly object ForEmpty_Constant;
