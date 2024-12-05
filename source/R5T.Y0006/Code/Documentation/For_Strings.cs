@@ -51,6 +51,16 @@ namespace R5T.Y0006
             public static readonly object ForAsterix;
 
             /// <summary>
+            /// ":", colon
+            /// </summary>
+            public static readonly object ForColon;
+
+            /// <summary>
+            /// ": ", colon and then a space.
+            /// </summary>
+            public static readonly object ForColonSeparatedListSpacedSeparator;
+
+            /// <summary>
             /// <description>",", comma</description>
             /// </summary>
             public static readonly object ForComma;
