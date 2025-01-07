@@ -108,6 +108,11 @@ namespace R5T.Y0006
             public static readonly object ForEquals;
 
             /// <summary>
+            /// <description>"!", the exclamation point</description>
+            /// </summary>
+            public static readonly object For_ExclamationPoint;
+
+            /// <summary>
             /// <para><value>"false"</value></para>
             /// </summary>
             public static readonly object ForFalse_Lowercase;
