@@ -14,7 +14,7 @@ namespace R5T.Y0006
             /// <inheritdoc cref="Alphanumeric" path="/definition"/>
             /// The Alphanumeric class uses the signifier 'X'.
             /// </summary>
-            /// <definition>The Alphanumeric class all <inheritdoc cref="Alpha" path="/name"/>s and <inheritdoc cref="Numeric" path="/name"/>s.</definition>
+            /// <definition>The Alphanumeric class contains all <inheritdoc cref="Alpha" path="/name"/>s and <inheritdoc cref="Numeric" path="/name"/>s.</definition>
             /// <name><i>alphanumeric</i></name>
             public static readonly object Alphanumeric;
 
@@ -41,13 +41,6 @@ namespace R5T.Y0006
             public static readonly object Control;
 
             /// <summary>
-            /// <inheritdoc cref="Digit" path="/definition"/>
-            /// </summary>
-            /// <definition>The Digit class contains the numerical digits 0-9.</definition>
-            /// <name><i>digit</i></name>
-            public static readonly object Digit;
-
-            /// <summary>
             /// <inheritdoc cref="Letter" path="/definition"/>
             /// </summary>
             /// <definition>The Letter class contains all uppercase (A-Z), lowercase (a-z), and accented (ª-ÿ) letters.</definition>
@@ -72,7 +65,7 @@ namespace R5T.Y0006
             /// <summary>
             /// <inheritdoc cref="Numeric" path="/definition"/>
             /// </summary>
-            /// <definition><inheritdoc cref="Digit" path="/definition"/></definition>
+            /// <definition><inheritdoc cref="F10Y.Y0000.Glossary.For_CharacterClasses.Digit" path="/definition"/></definition>
             /// The Numeric class uses the signifier '#'.
             /// <name><i>numeric</i></name>
             public static readonly object Numeric;
@@ -105,13 +98,6 @@ namespace R5T.Y0006
             /// <definition>The Uppercase class contains the uppercase latin (A-Z) and accented (À-Þ) letters.</definition>
             /// <name><i>uppercase</i></name>
             public static readonly object Uppercase;
-
-            /// <summary>
-            /// <inheritdoc cref="Whitespace" path="/definition"/>
-            /// </summary>
-            /// <definition>The Whitespace class contains the whitespace characters tab through non-breaking-space.</definition>
-            /// <name><i>whitespace</i></name>
-            public static readonly object Whitespace;
 
             /// <summary>
             /// <inheritdoc cref="None" path="/definition"/>
