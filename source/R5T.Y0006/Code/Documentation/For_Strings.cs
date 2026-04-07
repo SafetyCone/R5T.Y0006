@@ -66,12 +66,6 @@ namespace R5T.Y0006
             public static readonly object ForComma;
 
             /// <summary>
-            /// ", " - Comma and then a space.
-            /// For use in comma-separated lists where you also want a space after each comma.
-            /// </summary>
-            public static readonly object ForCommaSeparatedListSpacedSeparator;
-
-            /// <summary>
             /// <description>"<value>--</value>", two dashes</description>
             /// </summary>
             public static readonly object ForDoubleDash;
@@ -186,11 +180,6 @@ namespace R5T.Y0006
             /// "\t", tab
             /// </summary>
             public static readonly object ForTab;
-
-            /// <summary>
-            /// "\s\s\s\s", tab implemeted as four spaces
-            /// </summary>
-            public static readonly object ForTab_AsFourSpaces;
 
             /// <summary>
             /// "///"
